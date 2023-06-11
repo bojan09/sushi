@@ -13,27 +13,27 @@ const Navbar = () => {
     <div>
       <nav className="header__nav">
         <div className="header__logo">
-          <Link to="/" className="header__logo-link">
+          <a href="/#" className="header__logo-link">
             Sushi
-          </Link>
+          </a>
           <div class="header__logo-overlay"></div>
         </div>
 
         <ul className="header__menu">
           <li>
-            <Link to="/">Home</Link>
+            <a href="/#">Home</a>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <a href="/#about">About</a>
           </li>
           <li>
-            <Link to="/menu">Menu</Link>
+            <a href="/#menu">Menu</a>
           </li>
           <li>
-            <Link to="/food">Food</Link>
+            <a href="/#food">Food</a>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <a href="/#services">Services</a>
           </li>
           <li>
             <img src={search} alt="search" />

@@ -16,11 +16,11 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/about" exact element={<About />} />
-          <Route path="/menu" exact element={<Menu />} />
-          <Route path="/food" exact element={<Food />} />
-          <Route path="/services" exact element={<Services />} />
         </Routes>
+        <About />
+        <Menu />
+        <Food />
+        <Services />
         <Footer />
       </BrowserRouter>
     </div>

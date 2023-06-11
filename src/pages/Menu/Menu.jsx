@@ -3,7 +3,11 @@ import "./Menu.css";
 import React from "react";
 
 const Menu = () => {
-  return <div>Menu</div>;
+  return (
+    <div className="menu" id="menu">
+      Menu
+    </div>
+  );
 };
 
 export default Menu;
