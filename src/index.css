@@ -42,3 +42,8 @@ a {
 li {
   list-style-type: none;
 }
+
+img {
+  object-fit: contain;
+
+}
