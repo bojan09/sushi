@@ -25,87 +25,87 @@ AOS.init({
 const Menu = () => {
   return (
     <div className="popular-foods" id="menu">
-      <h2 class="popular-foods__title" data-aos="zoom-in-up">
+      <h2 className="popular-foods__title" data-aos="zoom-in-up">
         Popular Food / 人気
       </h2>
       <div
         className="popular-foods__filters sushi__hide-scrollbar"
         data-aos="fade-up"
       >
-        <button class="popular-foods__filter-btn active">All</button>
-        <button class="popular-foods__filter-btn">
+        <button className="popular-foods__filter-btn active">All</button>
+        <button className="popular-foods__filter-btn">
           <img src={sushi_9} alt="sushi 9" />
           Sushi
         </button>
-        <button class="popular-foods__filter-btn">
+        <button className="popular-foods__filter-btn">
           <img src={sushi_8} alt="sushi 8" />
           Ramen
         </button>
-        <button class="popular-foods__filter-btn">
+        <button className="popular-foods__filter-btn">
           <img src={sushi_7} alt="sushi 7" />
           Udon
         </button>
-        <button class="popular-foods__filter-btn">
+        <button className="popular-foods__filter-btn">
           <img src={sushi_6} alt="sushi 6" />
           Danggo
         </button>
-        <button class="popular-foods__filter-btn">All</button>
+        <button className="popular-foods__filter-btn">All</button>
       </div>
 
       <div className="popular-foods__catalogue" data-aos="fade-up">
         {/* Popular foods - Card __ 1 */}
-        <article class="popular-foods__card">
+        <article className="popular-foods__card">
           <img
-            class="popular-foods__card-image"
+            className="popular-foods__card-image"
             src={sushi_12}
             alt="sushi-12"
           />
-          <h4 class="popular-foods__card-title">Chezu Sushi</h4>
+          <h4 className="popular-foods__card-title">Chezu Sushi</h4>
 
-          <div class="popular-foods__card-details flex-between">
-            <div class="popular-foods__card-rating">
+          <div className="popular-foods__card-details flex-between">
+            <div className="popular-foods__card-rating">
               <img src={star_img} alt="star" />
               <p>4.9</p>
             </div>
 
-            <p class="popular-foods__card-price">$21.00</p>
+            <p className="popular-foods__card-price">$21.00</p>
           </div>
         </article>
 
         {/* Popular foods - Card __ 2 */}
-        <article class="popular-foods__card active-card">
+        <article className="popular-foods__card active-card">
           <img
-            class="popular-foods__card-image"
+            className="popular-foods__card-image"
             src={sushi_11}
             alt="sushi-11"
           />
-          <h4 class="popular-foods__card-title">Original Sushi</h4>
+          <h4 className="popular-foods__card-title">Original Sushi</h4>
 
-          <div class="popular-foods__card-details flex-between">
-            <div class="popular-foods__card-rating">
+          <div className="popular-foods__card-details flex-between">
+            <div className="popular-foods__card-rating">
               <img src={star_img} alt="star" />
               <p>5.0</p>
             </div>
 
-            <p class="popular-foods__card-price">$19.00</p>
+            <p className="popular-foods__card-price">$19.00</p>
           </div>
         </article>
 
-        <article class="popular-foods__card">
+        <article className="popular-foods__card">
           <img
-            class="popular-foods__card-image"
+            className="popular-foods__card-image"
             src={sushi_10}
             alt="sushi-10"
           />
-          <h4 class="popular-foods__card-title">Ramen Legendo</h4>
+          <h4 className="popular-foods__card-title">Ramen Legendo</h4>
 
-          <div class="popular-foods__card-details flex-between">
-            <div class="popular-foods__card-rating">
+          <div className="popular-foods__card-details flex-between">
+            <div className="popular-foods__card-rating">
               <img src={star_img} alt="star" />
               <p>4.7</p>
             </div>
 
-            <p class="popular-foods__card-price">$13.00</p>
+            <p className="popular-foods__card-price">$13.00</p>
           </div>
         </article>
       </div>

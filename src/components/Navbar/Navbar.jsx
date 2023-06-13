@@ -23,7 +23,7 @@ const Navbar = () => {
           <a href="/#" className="header__logo-link" data-aos="fade-down">
             Sushi
           </a>
-          <div class="header__logo-overlay"></div>
+          <div className="header__logo-overlay"></div>
         </div>
 
         <ul className="header__menu" data-aos="fade-down">

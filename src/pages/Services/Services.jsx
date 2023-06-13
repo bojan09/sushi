@@ -11,7 +11,7 @@ const Services = () => {
       </h2>
       <p data-aos="fade-up">Sign up for the Sushi newsletter</p>
 
-      <div class="subscription__form" data-aos="fade-up">
+      <div className="subscription__form" data-aos="fade-up">
         <input type="text" placeholder="Enter your email address" />
         <button>Get Started</button>
       </div>

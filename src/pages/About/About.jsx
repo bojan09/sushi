@@ -35,11 +35,11 @@ const About = () => {
       </div>
 
       <div className="about-us__content" data-aos="fade-left">
-        <p class="sushi__subtitle">About Us / 私たちに関しては</p>
-        <h3 class="sushi__title">
+        <p className="sushi__subtitle">About Us / 私たちに関しては</p>
+        <h3 className="sushi__title">
           Our mission is to bring true Japanese flavours to you.
         </h3>
-        <p class="sushi__description">
+        <p className="sushi__description">
           We will continue to provide the experience of Omotenashi, the Japanese
           mindset of hospitality, with our shopping and dining for our
           customers.

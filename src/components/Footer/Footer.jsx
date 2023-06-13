@@ -10,8 +10,8 @@ import twitter from "../../assets/twitter.svg";
 const Footer = () => {
   return (
     <div className="footer flex-between">
-      <h3 class="footer__logo">Sushi</h3>
-      <ul class="footer__nav">
+      <h3 className="footer__logo">Sushi</h3>
+      <ul className="footer__nav">
         <li>
           <a href="#menu">Menu</a>
         </li>
@@ -25,14 +25,14 @@ const Footer = () => {
           <a href="#about-us">About Us</a>
         </li>
       </ul>
-      <ul class="footer__social">
-        <li class="flex-center">
+      <ul className="footer__social">
+        <li className="flex-center">
           <img src={facebook} alt="facebook" />
         </li>
-        <li class="flex-center">
+        <li className="flex-center">
           <img src={instagram} alt="instagram" />
         </li>
-        <li class="flex-center">
+        <li className="flex-center">
           <img src={twitter} alt="twitter" />
         </li>
       </ul>
