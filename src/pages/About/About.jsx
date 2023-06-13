@@ -7,12 +7,21 @@ import sushi_3 from "../../assets/sushi-3.png";
 import sushi_2 from "../../assets/sushi-2.png";
 import arrow_up from "../../assets/arrow-up-right.svg";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 const About = () => {
   return (
     <div className="about-us" id="about">
       <div className="about-us__image">
         <div className="about-us__image-sushi_3">
-          <img src={sushi_3} alt="sushi" />
+          <img src={sushi_3} alt="sushi" data-aos="fade-right" />
         </div>
 
         <button className="about-us__button">
@@ -21,11 +30,11 @@ const About = () => {
         </button>
 
         <div className="about-us__image-sushi_2">
-          <img src={sushi_2} alt="sushi" />
+          <img src={sushi_2} alt="sushi" data-aos="fade-right" />
         </div>
       </div>
 
-      <div className="about-us__content">
+      <div className="about-us__content" data-aos="fade-left">
         <p class="sushi__subtitle">About Us / 私たちに関しては</p>
         <h3 class="sushi__title">
           Our mission is to bring true Japanese flavours to you.

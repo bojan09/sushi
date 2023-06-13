@@ -13,11 +13,25 @@ import sushi_12 from "../../assets/sushi-12.png";
 import arrow_right from "../../assets/arrow-right.svg";
 import star_img from "../../assets/star.svg";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 const Menu = () => {
   return (
     <div className="popular-foods" id="menu">
-      <h2 class="popular-foods__title">Popular Food / 人気</h2>
-      <div className="popular-foods__filters sushi__hide-scrollbar">
+      <h2 class="popular-foods__title" data-aos="zoom-in-up">
+        Popular Food / 人気
+      </h2>
+      <div
+        className="popular-foods__filters sushi__hide-scrollbar"
+        data-aos="fade-up"
+      >
         <button class="popular-foods__filter-btn active">All</button>
         <button class="popular-foods__filter-btn">
           <img src={sushi_9} alt="sushi 9" />
@@ -38,7 +52,7 @@ const Menu = () => {
         <button class="popular-foods__filter-btn">All</button>
       </div>
 
-      <div className="popular-foods__catalogue">
+      <div className="popular-foods__catalogue" data-aos="fade-up">
         {/* Popular foods - Card __ 1 */}
         <article class="popular-foods__card">
           <img

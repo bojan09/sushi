@@ -6,20 +6,27 @@ import React from "react";
 import search from "../../assets/search.svg";
 import menu from "../../assets/menu.svg";
 
-import { Link } from "react-router-dom";
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
 
 const Navbar = () => {
   return (
     <div>
       <nav className="header__nav">
         <div className="header__logo">
-          <a href="/#" className="header__logo-link">
+          <a href="/#" className="header__logo-link" data-aos="fade-down">
             Sushi
           </a>
           <div class="header__logo-overlay"></div>
         </div>
 
-        <ul className="header__menu">
+        <ul className="header__menu" data-aos="fade-down">
           <li>
             <a href="/#">Home</a>
           </li>
@@ -43,7 +50,7 @@ const Navbar = () => {
         {/* Mobile Navbar */}
         <ul className="header__menu-mobile">
           <li>
-            <img src={menu} alt="menu" />
+            <img src={menu} alt="menu" data-aos="fade-down" />
           </li>
         </ul>
       </nav>
