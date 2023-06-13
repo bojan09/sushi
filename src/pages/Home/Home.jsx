@@ -1,6 +1,8 @@
 import "./Home.css";
 
 import React from "react";
+import AOS from "aos";
+AOS.init();
 
 // assets
 import sushi from "../../assets/sushi-1.png";
