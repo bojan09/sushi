@@ -36,14 +36,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 64px;
-
+    gap: 11.5px;
     list-style: none;
 }
 
 .header__menu li {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     padding: 10px;
     text-transform: uppercase;
@@ -63,6 +62,7 @@
 .header__menu li img {
     width: 24px;
     height: 24px;
+    margin-left: 25px;
 }
 
 .header__menu-mobile {

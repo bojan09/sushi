@@ -21,7 +21,7 @@ const About = () => {
     <div className="about-us" id="about">
       <div className="about-us__image">
         <div className="about-us__image-sushi_3">
-          <img src={sushi_3} alt="sushi" data-aos="fade-right" />
+          <img src={sushi_3} alt="sushi3" data-aos="fade-right" />
         </div>
 
         <button className="about-us__button">
@@ -30,7 +30,7 @@ const About = () => {
         </button>
 
         <div className="about-us__image-sushi_2">
-          <img src={sushi_2} alt="sushi" data-aos="fade-right" />
+          <img src={sushi_2} alt="sushi2" data-aos="fade-right" />
         </div>
       </div>
 
