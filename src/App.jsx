@@ -1,13 +1,13 @@
 import React from "react";
 
 // react-router-dom
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // components
 import { Navbar, Footer } from "./components";
 
 // pages
-import { Home, About, Menu, Food, Services } from "./pages";
+import { Home, About, Menu, Trending, Services } from "./pages";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
         </Routes>
         <About />
         <Menu />
-        <Food />
+        <Trending />
         <Services />
         <Footer />
       </BrowserRouter>
