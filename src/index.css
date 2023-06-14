@@ -131,6 +131,10 @@ img {
 }
 
 @media screen and (max-width: 750px) {
+  .about-us {
+    position: relative;
+  }
+
   .about-us__image {
     flex-direction: column;
   }
@@ -142,7 +146,7 @@ img {
 
   .about-us__button {
     display: block;
-    top: 47%;
+    margin-top: 2.5rem;
   }
 }
 
@@ -320,6 +324,12 @@ img {
 }
 
 @media screen and (max-width: 550px) {
+
+  .trending-drinks {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .trending__image img {
     width: 70%;
     height: 70%;
@@ -331,3 +341,23 @@ img {
 }
 
 /* END: trending media queries */
+
+
+/* START: footer media queries */
+@media screen and (max-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 10px;
+  }
+
+  .footer ul {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 25px auto 10px;
+  }
+}
+
+/* END: footer media queries */

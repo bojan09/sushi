@@ -7,10 +7,21 @@ import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
 import twitter from "../../assets/twitter.svg";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 const Footer = () => {
   return (
     <div className="footer flex-between">
-      <h3 className="footer__logo">Sushi</h3>
+      <a href="#" className="footer__logo">
+        Sushi
+      </a>
       <ul className="footer__nav">
         <li>
           <a href="#menu">Menu</a>
